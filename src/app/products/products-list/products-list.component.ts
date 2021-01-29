@@ -20,7 +20,7 @@ export class ProductsListComponent implements OnInit {
 
     } 
      ngOnInit(): void {     
-      this.calculateNumberOfPages();
+      // this.calculateNumberOfPages();
       // this.products = this.productService.getAllProducts();
     this.productService.getAllProducts().subscribe(
       (response)=>{
